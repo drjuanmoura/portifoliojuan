@@ -1,21 +1,11 @@
-# Portfólio Juan Moura
+# Portfólio Juan Moura — V2
 
-Site estático, gratuito e pronto para GitHub Pages.
+## Como atualizar no GitHub
+Envie todo o conteúdo desta pasta para a raiz do repositório, incluindo a pasta `assets`.
 
-## Arquivos
-- index.html
-- style.css
-- script.js
+Se o GitHub perguntar se deseja substituir `index.html`, `style.css` e `script.js`, confirme.
 
-## Publicação no GitHub Pages
-1. Envie os 3 arquivos para a raiz do repositório.
-2. Vá em Settings > Pages.
-3. Em Build and deployment, escolha:
-   - Source: Deploy from a branch
-   - Branch: main
-   - Folder: / (root)
-4. Salve e aguarde alguns minutos.
-
-## Personalização
-Substitua os blocos de foto e portfólio por imagens próprias.
-Adicione seu link do WhatsApp e o número do CRBM.
+## Importante
+- Troque `CRBM: adicionar registro` pelo número correto.
+- O botão de WhatsApp está como placeholder.
+- As imagens clínicas e resultados devem ser usadas somente com as autorizações necessárias.
