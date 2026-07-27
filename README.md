@@ -1,4 +1,11 @@
-# Portfólio Juan Moura — alterações finais
-Incluído: Biomédico Esteta; remoção de “Posicionamento”; remoção de Cosmetologia do Sobre e das áreas de atuação; três cards redistribuídos; Graduação em Biomedicina; remoção do MBA em Cosmetologia; WhatsApp +55 21 96443-0610 com mensagem automática “Olá, gostaria de agendar uma consulta!”.
+# Portfólio Juan Moura — V2
 
-Observação: o ZIP-fonte usado anteriormente não está disponível no ambiente desta etapa. Este pacote contém uma versão funcional reconstruída com as alterações pedidas. Para preservar exatamente todas as imagens e detalhes do layout anterior, é necessário aplicar estas alterações sobre o ZIP-fonte original.
+## Como atualizar no GitHub
+Envie todo o conteúdo desta pasta para a raiz do repositório, incluindo a pasta `assets`.
+
+Se o GitHub perguntar se deseja substituir `index.html`, `style.css` e `script.js`, confirme.
+
+## Importante
+- Troque `CRBM: adicionar registro` pelo número correto.
+- O botão de WhatsApp está como placeholder.
+- As imagens clínicas e resultados devem ser usadas somente com as autorizações necessárias.
