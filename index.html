@@ -88,11 +88,11 @@
       <span class="tech-number">01</span>
       <h3>Harmonização Facial</h3>
       <div class="tech-pills">
-        <span>Preenchimento Labial</span>
-        <span>Preenchimento Facial</span>
-        <span>Rinomodelação</span>
-        <span>Toxina Botulínica</span>
-        <span>Bioestimuladores de Colágeno</span>
+        <button class="tech-pill" type="button" data-tech="Preenchimento Labial" data-desc="Técnica voltada à definição do contorno, proporção e projeção dos lábios, sempre respeitando a anatomia e as características individuais.">Preenchimento Labial</button>
+        <button class="tech-pill" type="button" data-tech="Preenchimento Facial" data-desc="Uso planejado de preenchedores para harmonizar proporções, restaurar suporte e valorizar pontos estratégicos da face.">Preenchimento Facial</button>
+        <button class="tech-pill" type="button" data-tech="Rinomodelação" data-desc="Procedimento não cirúrgico para melhorar pontos selecionados do contorno nasal, conforme avaliação individual e indicação.">Rinomodelação</button>
+        <button class="tech-pill" type="button" data-tech="Toxina Botulínica" data-desc="Técnica utilizada para modular a ação muscular em pontos específicos, suavizando marcas de expressão e contribuindo para o equilíbrio facial.">Toxina Botulínica</button>
+        <button class="tech-pill" type="button" data-tech="Bioestimuladores de Colágeno" data-desc="Procedimentos destinados a estimular a produção de colágeno, com foco em firmeza, sustentação e melhora gradual da qualidade dos tecidos.">Bioestimuladores de Colágeno</button>
       </div>
     </article>
 
@@ -100,11 +100,11 @@
       <span class="tech-number">02</span>
       <h3>Qualidade da Pele</h3>
       <div class="tech-pills">
-        <span>Microagulhamento</span>
-        <span>Skinbooster</span>
-        <span>Peelings</span>
-        <span>Intradermoterapia</span>
-        <span>Protocolos de Rejuvenescimento</span>
+        <button class="tech-pill" type="button" data-tech="Microagulhamento" data-desc="Técnica que utiliza microperfurações controladas para estimular processos de reparo e favorecer protocolos voltados à textura e qualidade da pele.">Microagulhamento</button>
+        <button class="tech-pill" type="button" data-tech="Skinbooster" data-desc="Procedimento injetável voltado à hidratação profunda e melhora da qualidade, viço e elasticidade da pele.">Skinbooster</button>
+        <button class="tech-pill" type="button" data-tech="Peelings" data-desc="Aplicação de agentes selecionados para promover renovação cutânea de forma controlada, de acordo com a necessidade e o objetivo do tratamento.">Peelings</button>
+        <button class="tech-pill" type="button" data-tech="Intradermoterapia" data-desc="Aplicação intradérmica de substâncias selecionadas conforme avaliação e objetivo do protocolo.">Intradermoterapia</button>
+        <button class="tech-pill" type="button" data-tech="Protocolos de Rejuvenescimento" data-desc="Combinação individualizada de técnicas e recursos para atuar em diferentes sinais do envelhecimento de forma planejada.">Protocolos de Rejuvenescimento</button>
       </div>
     </article>
 
@@ -112,9 +112,9 @@
       <span class="tech-number">03</span>
       <h3>Tricologia</h3>
       <div class="tech-pills">
-        <span>Microagulhamento Capilar</span>
-        <span>Intradermoterapia Capilar</span>
-        <span>LED / Fotobiomodulação</span>
+        <button class="tech-pill" type="button" data-tech="Microagulhamento Capilar" data-desc="Microperfurações controladas no couro cabeludo integradas a protocolos voltados à saúde folicular e à qualidade do couro cabeludo.">Microagulhamento Capilar</button>
+        <button class="tech-pill" type="button" data-tech="Intradermoterapia Capilar" data-desc="Aplicação de substâncias diretamente no couro cabeludo dentro de protocolos individualizados, conforme avaliação e indicação.">Intradermoterapia Capilar</button>
+        <button class="tech-pill" type="button" data-tech="LED / Fotobiomodulação" data-desc="Uso de luz em parâmetros específicos como recurso complementar em protocolos capilares e de recuperação tecidual.">LED / Fotobiomodulação</button>
       </div>
     </article>
 
@@ -122,9 +122,9 @@
       <span class="tech-number">04</span>
       <h3>Harmonização Corporal</h3>
       <div class="tech-pills">
-        <span>Lipo Enzimática</span>
-        <span>Bioestimuladores de Colágeno</span>
-        <span>Preenchimento Glúteo</span>
+        <button class="tech-pill" type="button" data-tech="Lipo Enzimática" data-desc="Protocolo corporal injetável voltado a áreas selecionadas, definido após avaliação individual e indicação.">Lipo Enzimática</button>
+        <button class="tech-pill" type="button" data-tech="Bioestimuladores de Colágeno" data-desc="Procedimentos destinados a estimular a produção de colágeno, com foco em firmeza, sustentação e melhora gradual da qualidade dos tecidos.">Bioestimuladores de Colágeno</button>
+        <button class="tech-pill" type="button" data-tech="Preenchimento Glúteo" data-desc="Procedimento de harmonização corporal voltado ao contorno e à projeção, realizado conforme anatomia, planejamento e indicação.">Preenchimento Glúteo</button>
       </div>
     </article>
   </div>
@@ -220,5 +220,17 @@
 </footer>
 
 <script src="script.js"></script>
+
+<div class="tech-modal" id="techModal" aria-hidden="true">
+  <div class="tech-modal-backdrop" data-close-modal></div>
+  <div class="tech-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="techModalTitle">
+    <button class="tech-modal-close" type="button" aria-label="Fechar" data-close-modal>×</button>
+    <span class="eyebrow">TÉCNICA</span>
+    <h3 id="techModalTitle"></h3>
+    <p id="techModalDescription"></p>
+    <a id="techModalWhatsapp" class="btn primary" href="https://wa.me/5521964430610?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%21" target="_blank" rel="noopener">Agendar uma avaliação</a>
+  </div>
+</div>
+
 </body>
 </html>

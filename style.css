@@ -65,3 +65,86 @@
   .results .result-card:nth-child(3) img,
   .results .result-card:nth-child(4) img{height:460px}
 }
+
+
+/* ===== Técnicas clicáveis ===== */
+.tech-pills .tech-pill{
+  appearance:none;
+  display:inline-flex;
+  align-items:center;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid rgba(73,56,46,.16);
+  background:#fffaf4;
+  color:#2b211d;
+  font:500 12px/1.25 'Manrope',sans-serif;
+  cursor:pointer;
+  transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+.tech-pills .tech-pill:hover,
+.tech-pills .tech-pill:focus-visible{
+  transform:translateY(-2px);
+  background:#fff;
+  box-shadow:0 8px 24px rgba(73,56,46,.10);
+  outline:none;
+}
+.tech-pills .tech-pill::after{
+  content:" +";
+  margin-left:5px;
+  color:#a88a5d;
+  font-weight:700;
+}
+.tech-modal{
+  position:fixed;
+  inset:0;
+  z-index:10000;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:22px;
+}
+.tech-modal.is-open{display:flex}
+.tech-modal-backdrop{
+  position:absolute;
+  inset:0;
+  background:rgba(28,20,16,.58);
+  backdrop-filter:blur(5px);
+}
+.tech-modal-dialog{
+  position:relative;
+  z-index:1;
+  width:min(560px,100%);
+  background:#f9f6f1;
+  color:#2b211d;
+  border-radius:28px;
+  padding:38px;
+  box-shadow:0 30px 90px rgba(0,0,0,.24);
+}
+.tech-modal-dialog h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:42px;
+  line-height:1.05;
+  margin:10px 0 18px;
+}
+.tech-modal-dialog p{
+  color:#65534a;
+  margin:0 0 26px;
+}
+.tech-modal-close{
+  position:absolute;
+  top:16px;
+  right:18px;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  border:1px solid rgba(73,56,46,.15);
+  background:transparent;
+  color:#49382e;
+  font-size:25px;
+  cursor:pointer;
+}
+body.modal-open{overflow:hidden}
+@media(max-width:640px){
+  .tech-modal-dialog{padding:30px 24px}
+  .tech-modal-dialog h3{font-size:34px}
+}
