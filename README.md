@@ -28,3 +28,19 @@ Novas alterações:
 - Contato final com CTA para construção de plano de tratamento.
 - Menu com acesso à seção Técnicas.
 - Rodapé coerente com “Biomédico Esteta”.
+
+
+## Procedimentos atualizados
+Todos os procedimentos da seção Técnicas & Procedimentos são clicáveis. Ao clicar, abre uma explicação prévia e um botão para falar pelo WhatsApp.
+
+Harmonização Facial: Preenchimento Labial, Preenchimento Facial, Toxina Botulínica, Bioestimuladores de Colágeno.
+Qualidade da Pele: Microagulhamento, Skinbooster, Peelings, Intradermoterapia, Protocolos de Rejuvenescimento.
+Tricologia: Microagulhamento Capilar, Intradermoterapia Capilar, LED / Fotobiomodulação.
+Harmonização Corporal: Lipo Enzimática, Bioestimulador, Preenchimento Glúteo, PEIM.
+
+
+## Atualização de casos em destaque
+- Removido o caso de Perfiloplastia.
+- Adicionado caso de Preenchimento Labial com a imagem `Antes.png`.
+- Adicionado caso de Preenchimento de Mento com a imagem `Antes (1).png`.
+- Todos os demais conteúdos, procedimentos clicáveis, textos, imagens, WhatsApp, layout e funcionalidades anteriores foram mantidos.
