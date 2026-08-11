@@ -148,3 +148,12 @@ body.modal-open{overflow:hidden}
   .tech-modal-dialog{padding:30px 24px}
   .tech-modal-dialog h3{font-size:34px}
 }
+
+
+/* Integração entre áreas de atuação e procedimentos */
+.tech-summary{
+  color:#66544b;
+  margin:-8px 0 22px;
+  max-width:520px;
+  font-size:14px;
+}
