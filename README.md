@@ -53,3 +53,14 @@ Harmonização Corporal: Lipo Enzimática, Bioestimulador, Preenchimento Glúteo
 - O conceito de individualidade foi mantido apenas no manifesto principal do posicionamento.
 - Textos e legendas de Casos em Destaque foram reescritos para evitar repetição.
 - As imagens e resultados anteriores, incluindo Preenchimento Labial e Preenchimento de Mento, foram preservados.
+
+
+## Alterações desta versão
+- WhatsApp atualizado para 55 21 99844-9848 em todos os links e no modal.
+- Removida a área 04 Harmonização Corporal e seus procedimentos.
+- Removido o bloco Protocolos corporais.
+- Imagem de Procedimentos injetáveis atualizada; original preservada em assets/clinical3_original.jpg.
+- Formação 03: Treinamento Teórico e Prático da Imersão em HOF.
+- Resultados reorganizados como galeria genérica, sem vincular as imagens a procedimentos específicos.
+- Imagens antigas de harmonização facial, harmonização labial, preenchimento labial e preenchimento de mento preservadas na galeria.
+- Todas as seis novas imagens enviadas foram adicionadas ao pacote.

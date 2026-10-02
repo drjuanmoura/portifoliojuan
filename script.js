@@ -7,7 +7,7 @@ const b=document.querySelector('.menu-btn'),n=document.querySelector('.nav');b?.
   const title = document.getElementById('techModalTitle');
   const desc = document.getElementById('techModalDescription');
   const whatsapp = document.getElementById('techModalWhatsapp');
-  const basePhone = '5521964430610';
+  const basePhone = '5521998449848';
 
   function openModal(button){
     const tech = button.dataset.tech || '';

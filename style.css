@@ -157,3 +157,19 @@ body.modal-open{overflow:hidden}
   max-width:520px;
   font-size:14px;
 }
+
+/* Revisão: três áreas de atuação e galeria ampliada de resultados */
+.tech-grid{grid-template-columns:repeat(3,1fr)}
+.clinical-grid{grid-template-columns:repeat(2,1fr)}
+.result-grid{grid-template-columns:repeat(3,1fr)}
+.result-card img{height:460px}
+.result-card figcaption{display:block}
+.result-card figcaption b{display:block;margin-bottom:4px}
+.result-card figcaption span{display:block}
+@media(max-width:1100px){
+  .tech-grid,.result-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:720px){
+  .tech-grid,.clinical-grid,.result-grid{grid-template-columns:1fr}
+  .result-card img{height:auto;max-height:560px}
+}
