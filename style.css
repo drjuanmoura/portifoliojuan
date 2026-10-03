@@ -173,3 +173,11 @@ body.modal-open{overflow:hidden}
   .tech-grid,.clinical-grid,.result-grid{grid-template-columns:1fr}
   .result-card img{height:auto;max-height:560px}
 }
+
+.results-disclaimer{
+  margin-top:18px;
+  max-width:900px;
+  font-size:.86rem;
+  line-height:1.6;
+  opacity:.78;
+}

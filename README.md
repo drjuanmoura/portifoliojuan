@@ -64,3 +64,8 @@ Harmonização Corporal: Lipo Enzimática, Bioestimulador, Preenchimento Glúteo
 - Resultados reorganizados como galeria genérica, sem vincular as imagens a procedimentos específicos.
 - Imagens antigas de harmonização facial, harmonização labial, preenchimento labial e preenchimento de mento preservadas na galeria.
 - Todas as seis novas imagens enviadas foram adicionadas ao pacote.
+
+## Revisão adicional
+- Tricologia: adicionados Tricoscopia Digital e Alta Frequência.
+- Atuação Clínica: novas imagens em Planejamento facial e Procedimentos injetáveis.
+- Resultados: incluído aviso sobre ausência de garantia de resultado e autorização em TCLE.
