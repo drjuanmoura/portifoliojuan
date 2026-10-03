@@ -69,3 +69,7 @@ Harmonização Corporal: Lipo Enzimática, Bioestimulador, Preenchimento Glúteo
 - Tricologia: adicionados Tricoscopia Digital e Alta Frequência.
 - Atuação Clínica: novas imagens em Planejamento facial e Procedimentos injetáveis.
 - Resultados: incluído aviso sobre ausência de garantia de resultado e autorização em TCLE.
+
+## Correção final
+- Confirmadas as novas imagens de Planejamento Facial e Procedimentos Injetáveis.
+- As legendas antigas dos resultados foram substituídas pelo aviso solicitado em 11 cards.

@@ -181,3 +181,14 @@ body.modal-open{overflow:hidden}
   line-height:1.6;
   opacity:.78;
 }
+
+.result-disclaimer-caption{
+  display:block;
+  padding-top:14px;
+}
+.result-disclaimer-caption span{
+  display:block;
+  font-size:.78rem;
+  line-height:1.55;
+  opacity:.78;
+}
